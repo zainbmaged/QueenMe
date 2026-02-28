@@ -5,12 +5,36 @@ The project aims to build a Retrieval-Augmented Generation (RAG) based assistant
 
 # Installation Steps
 
-### Backend
+### prerequiest 
+- IDE like vscode
+- Python 3.11
+- Download and install Python 3.11 from the official website:
+<https://www.python.org/downloads/release/python-3110/>
+-Go to Cohere offcial website and create an account and a free api key
+<https://dashboard.cohere.com/api-keys>
+
+### Create & Activate Python Virtual Environment
+
+Linux/macOS:
+
+```py -3.11 -m venv venv
+source venv/bin/activate
+```
+
+Windows (PowerShell):
+
+```py -3.11 -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+You should see (venv) at the start of your terminal prompt.```
+
+### Backend terminal
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
-Create a `.env` file in the backend folder:
+Add your cohere api key to the  `.env` file in the backend folder:
 ```
 COHERE_API_KEY=your_key_here
 ```
@@ -18,9 +42,13 @@ COHERE_API_KEY=your_key_here
 uvicorn main:app --reload
 ```
 
-### Frontend
+### Frontend terminal
 ```bash
 cd queenme-ui
+```
+```
 npm install
+```
+```
 npm run dev
 ```
