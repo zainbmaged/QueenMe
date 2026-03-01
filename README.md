@@ -39,9 +39,9 @@ You should see (venv) at the start of your terminal prompt.```
 cd backend
 pip install -r requirements.txt
 ```
-Add your cohere api key to the  `.env` file in the backend folder:
+Create .env file in backend folder Add your cohere api key to the  `.env` file in the backend folder:
 ```
-COHERE_API_KEY=your_key_here
+COHERE_API_KEY= "Your Cohere API Key Here"
 ```
 ```bash
 uvicorn main:app --reload
