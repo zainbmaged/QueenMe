@@ -57,3 +57,5 @@ npm install
 ```
 npm run dev
 ```
+### In any browser open the local path usually http://localhost:5173/
+Try asking any questions samples provided at the github repo
