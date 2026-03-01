@@ -16,7 +16,7 @@ The project aims to build a Retrieval-Augmented Generation (RAG) based assistant
 ### Clone repo
 
 - git clone <https://github.com/zainbmaged/QueenMe>
-- cd <folder location>
+- cd  yoursavedfolderpath/QueenMe
 
 ### Create & Activate Python Virtual Environment
 
