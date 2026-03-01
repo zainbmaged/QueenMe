@@ -13,6 +13,11 @@ The project aims to build a Retrieval-Augmented Generation (RAG) based assistant
 -Go to Cohere offcial website and create an account and a free api key
 <https://dashboard.cohere.com/api-keys>
 
+### Clone repo
+
+- git clone <https://github.com/zainbmaged/QueenMe>
+- cd <folder location>
+
 ### Create & Activate Python Virtual Environment
 
 Linux/macOS:
