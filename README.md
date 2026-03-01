@@ -10,7 +10,7 @@ The project aims to build a Retrieval-Augmented Generation (RAG) based assistant
 - Python 3.11
 - Download and install Python 3.11 from the official website:
 <https://www.python.org/downloads/release/python-3110/>
--Go to Cohere offcial website and create an account and a free api key
+- Go to Cohere offcial website and create an account and a free api key
 <https://dashboard.cohere.com/api-keys>
 
 ### Clone repo
